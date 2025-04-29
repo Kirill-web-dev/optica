@@ -1,21 +1,25 @@
 import { AnimateOnView } from "@/shared/components/animate-on-view";
 import { Card, CardContent, CardDescription } from "@/shared/components/ui/card";
-import { Eye, Glasses, Hammer } from "lucide-react";
 
 import Image from "next/image";
+import { FaGlasses, FaHammer, FaRegEye, FaUserDoctor } from "react-icons/fa6";
 
 const services = [
   {
     title: "Диагностика зрения",
-    icon: Eye,
+    icon: FaUserDoctor,
+  },
+  {
+    title: "Подбор контактных линз",
+    icon: FaRegEye,
   },
   {
     title: "Подбор оправ",
-    icon: Glasses,
+    icon: FaGlasses,
   },
   {
     title: "Изготовление и ремонт очков",
-    icon: Hammer,
+    icon: FaHammer,
   },
 ];
 
@@ -114,7 +118,7 @@ export default function Home() {
           {services.map(({ icon: Icon, title }, index) => (
             <Card className="flex items-center justify-center w-full sm:w-[300px] h-[200px] hover:-translate-y-2 transition-all cursor-pointer animate-slide-down" key={index}>
               <CardContent className="flex flex-col items-center justify-center gap-5">
-                <Icon size={40} className="text-blue-500" />
+                <Icon size={30} className="text-blue-500" />
                 <p className="text-center">{title}</p>
               </CardContent>
             </Card>
