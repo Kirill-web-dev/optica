@@ -7,7 +7,7 @@ const routes = [
   { title: "О нас", link: "about" },
   { title: "Услуги", link: "services" },
   { title: "Больше о нас", link: "more_about" },
-  { title: "Команда", link: "team" },
+  { title: "Коллектив", link: "team" },
   { title: "Бренды", link: "brends" },
   { title: "Контакты", link: "contacts" },
 ];
