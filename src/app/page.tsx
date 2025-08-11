@@ -154,7 +154,7 @@ export default function Home() {
           <div className="flex gap-4 overflow-x-auto no-scrollbar pb-4">
             {brends.map((brend, index) => (
               <Card key={index} className="flex-shrink-0 w-[160px] h-[160px] flex flex-col items-center justify-center px-2">
-                <Image width={1080} height={1080} className="max-h-[80px] w-auto" src={brend.image} alt={brend.title} />
+                <Image width={1080} height={1080} className="max-h-[80px] w-auto mix-blend-multiply" src={brend.image} alt={brend.title} />
                 <div className="mt-2 text-center text-xs">{brend.title}</div>
               </Card>
             ))}
