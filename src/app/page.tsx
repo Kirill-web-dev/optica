@@ -39,7 +39,7 @@ const brends = [
   },
   {
     title: "Guess",
-    image: "/logos/Guess_Logo.svg",
+    image: "/logos/guess.png",
   },
   {
     title: "Chopard",
