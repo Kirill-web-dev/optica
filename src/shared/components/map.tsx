@@ -8,12 +8,13 @@ export const Map = dynamic(
       return function InnerMap() {
         return (
           <YMaps>
-            <Map defaultState={{ center: [55.72249, 37.57654], zoom: 16 }} width="100%" height="300px">
+            <Map defaultState={{ center: [55.72249, 37.57654], zoom: 12 }} width="100%" height="300px">
               <Placemark geometry={[55.72249, 37.57654]} />
+              <Placemark geometry={[55.682031, 37.566539]} />
             </Map>
           </YMaps>
         );
       };
     }),
-  { ssr: false }
+  { ssr: false },
 );

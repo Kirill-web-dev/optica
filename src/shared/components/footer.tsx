@@ -9,16 +9,28 @@ export const Footer = () => {
 
       <div className="leading-8 w-full lg:w-auto text-center lg:text-left">
         <h1 className="font-semibold text-2xl text-blue-500 mb-4">Контакты</h1>
-        <p className="text-black font-semibold">
-          Телефон:{" "}
-          <a href="tel:84956282766" className="underline text-blue-500/80">
-            8(495)628-27-66
-          </a>
-          ,{" "}
-          <a href="tel:84956091338" className="underline text-blue-500/80">
-            8(495)609-13-38
-          </a>
-        </p>
+        <div className="flex flex-col">
+          <p className="text-black font-semibold">
+            «Оптика На Комсомольском, 37» Телефоны: <br />
+            <a href="tel:84956282766" className="underline text-blue-500/80">
+              8(495)628-27-66
+            </a>
+            ,{" "}
+            <a href="tel:84956091338" className="underline text-blue-500/80">
+              8(495)609-13-38
+            </a>
+          </p>
+          <p className="text-black font-semibold">
+            «Оптика На Профсоюзной, 20/9» Телефоны: <br />
+            <a href="tel:84956282766" className="underline text-blue-500/80">
+              8(495)628-27-66
+            </a>
+            ,{" "}
+            <a href="tel:84956091338" className="underline text-blue-500/80">
+              8(495)609-13-38
+            </a>
+          </p>
+        </div>
 
         <p className="text-black font-semibold">
           Почта:{" "}
@@ -30,7 +42,13 @@ export const Footer = () => {
           Время работы: <span className="text-gray-400">пн-пт 10:00–20:00, сб-вс 11:00–20:00</span>
         </p>
         <p className="text-black font-semibold">
-          Адрес: <span className="text-gray-400">ул. 3-я Фрунзенская, дом 14/37 (вход с Комсомольского пр, 37)</span>
+          Адреса:
+          <br />{" "}
+          <span className="text-gray-400">
+            ул. 3-я Фрунзенская, дом 14/37 (вход с Комсомольского пр, 37)
+            <br />
+            ул. Профсоюзная, 20/9
+          </span>
         </p>
       </div>
     </footer>
